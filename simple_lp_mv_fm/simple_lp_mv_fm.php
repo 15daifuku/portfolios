@@ -1,1 +1,1 @@
-<?php header('Location: /simple_lp_mv_fm.html'); ?>
+<?php header('Location: /simple_lp_mv_fm/simple_lp_mv_fm.html'); ?>
