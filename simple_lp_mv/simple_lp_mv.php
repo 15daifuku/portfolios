@@ -1,1 +1,1 @@
-<?php header('Location: /simple_lp_mv/index.html'); ?>
+<?php header('Location: /simple_lp_mv/simple_lp_mv.html'); ?>
