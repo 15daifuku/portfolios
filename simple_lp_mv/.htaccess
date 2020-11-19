@@ -1,4 +1,4 @@
-DirectoryIndex simple_lp_mv/index.html index.php
+DirectoryIndex simple_lp_mv/index.php
 AuthUserFile /app/simple_lp_mv/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
