@@ -1,0 +1,169 @@
+/* 共通部分 */
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 93%;
+	line-height: 1.5em;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+nav.section_inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+div.section_inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+div.header {
+  background-color: #E9E9E9;
+	padding: 40px 0;
+}
+
+
+.header h1 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* ナビゲーション部分 */
+
+.h_nav {
+  background-color: #d4d4d4;
+}
+
+nav ul {
+  margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  font-size: 93%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid #bababa;
+}
+
+/* main 部分 */
+
+div.container {
+  padding: 50px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+div.contents {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+
+/* ３つの画像説明部分 */
+
+div.m_section {
+  padding-bottom: 50px;
+}
+
+/* ３つの画像説明共通設定 */
+
+div.m_box  {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+/* ３つ目の画像説明 */
+
+div.m_box3 {
+	margin: 0;
+}
+
+/* メインカラム */
+
+div.main {
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+}
+
+/* 右のサイドカラム */
+
+.side {
+  width: 30%;
+	float: left;
+}
+
+div.card_1 {
+  background-color: #9bdaef;
+  padding: 20px;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+
+div.card_2 {
+  background-color: #efdb7f;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+
+
+h4 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+div.footer_outer {
+  background-color: #3f3f3f;
+	color: #FFF;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

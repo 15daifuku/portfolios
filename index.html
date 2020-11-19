@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>ポートフォリオサイト</title>
+  </head>
+  <body>
+    <!-- ナビゲーションバー -->
+    <!-- HOME,ABOUT,SKILLS,WORKS,CONTACT -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark banner">
+      <!-- <div class="container"> -->
+        <a class="navbar-brand" href="index.html">Ke1suke's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills" class="nav-link">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service" class="nav-link">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works" class="nav-link">WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Dropdown
+             </a>
+             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="index.html">HOME</a>
+               <a class="dropdown-item" href="#about">ABOUT</a>
+               <a class="dropdown-item" href="#skills">SKILLS</a>
+               <a class="dropdown-item" href="#service">SERVICE</a>
+               <a class="dropdown-item" href="#works">WORKS</a>
+               <a class="dropdown-item" href="#contact">CONTACT</a>
+             </div>
+            </li>
+          </ul>
+        </div>
+      <!-- </div> -->
+    </nav>
+    <!-- メイン画像 -->
+    <div class="row main">
+      <div class="wrap_img">
+        <div class="text_box">
+          <div class="text">
+            <!-- <h1>Ke1suke's Portfolio</h1> -->
+          </div>
+        </div>
+        <img src="./src/roberto-nickson.jpg" alt="メイン画像">
+      </div>
+    </div>
+    <!-- 自己紹介 -->
+    <div class="row justify-content-center abouts">
+      <a name="about"></a>
+      <div class="col-sm-12 text-center about">
+        <h2>About</h2>
+      </div>
+      <div class="col-sm-6 text-center">
+        <img src="src/image_self.jpeg" alt="自己紹介画像">
+      </div>
+      <div class="col-sm-6 text-left about_desc">
+        <p>Keisuke Abe（阿部 圭佑）</p>
+        <p>埼玉県在住</p>
+        <p>現在はバックエンドのインフラ系エンジニアとして活動しています。</p>
+        <p>バックエンドからフロントエンドまで幅広く仕事を行いたいと考え本格的にプログラミング学習を行っています。</p>
+        <p>Web制作については、HP作成、LP作成など運用を含めた対応が可能です。</p>
+        <p>バックエンドでの経験もありますのでWeb制作に限らずお客様の問題解決に貢献できればと考えています。</p>
+      </div>
+    </div>
+    <!-- 持っているスキル -->
+    <div class="row skills">
+      <a name="skills"></a>
+      <div class="col-sm-12 text-center skill">
+        <h2>Skills</h2>
+      </div>
+      <!-- <div class="col-sm-3 text-center"> -->
+      <div class="col-sm-3 text-center"><!-- HTML5の画像 -->
+        <p>
+          HTML5
+        </p>
+        <i class="fab fa-html5 my_icon icon_orange"></i>
+      </div>
+      <div class="col-sm-3 text-center">
+        <p>
+          CSS3
+        </p>
+        <i class="fab fa-css3-alt my_icon icon_skyblue"></i>
+      </div>
+      <div class="col-sm-3 text-center">
+        <p>
+          Bootstrap4
+        </p>
+        <i class="fab fa-bootstrap my_icon icon_purple"></i>
+      </div>
+      <div class="col-sm-3 text-center">
+        <p>
+          JavaScript
+        </p>
+        <i class="fab fa-js my_icon icon_lime"></i>
+      </div>
+    </div>
+    <!-- サービス内容 -->
+    <div class="row justify-content-center services">
+      <a name="service"></a>
+      <div class="col-sm-12 text-center service">
+        <h2>Service</h2>
+      </div>
+      <div class="col-sm-3 col-sm-offset-3 text-left service_desc">
+      <!-- <div class="col-sm-6 text-left service_desc"> -->
+        <img src="./src/hotel-work.jpg" alt="">
+        <h4>HP・LP作成</h4>
+        <p>
+          デザインを含めたコーディング及びレスポンシブ対応まで幅広く行っています。<br>
+        </p>
+      </div>
+      <div class="col-sm-3 col-sm-offset-3 text-left service_desc">
+      <!-- <div class="col-sm-6 text-left service_desc"> -->
+        <img src="./src/hotel-work.jpg" alt="">
+        <p>
+          Comming Soon ...
+        </p>
+      </div>
+    </div>
+    <!-- 実績、制作物 -->
+    <div class="row works">
+      <a name="works"></a>
+      <div class="col-sm-12 text-center">
+        <h2>Works</h2>
+      </div>
+      <div class="col-sm-12 text-center">
+        <p>
+          公開可能な過去の制作物です。
+        </p>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="sample">
+          <p>シンプルなホームページ</p>
+          <a href="sample_site/index.php" target="_blank">
+            <img src="src/sample1.png" alt="課題①：コーディング入門">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="sample">
+          <p>シンプルなコーポレートサイト</p>
+          <a href="https://company1-responsive.herokuapp.com/" target="_blank">
+            <img src="src/sample2.png" alt="課題③：レスポンシブ基礎">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="sample">
+          <p>airbnb 模写</p>
+          <a href="https://simple-lp-mv.herokuapp.com/" target="_blank">
+            <img src="src/airbnb_mv.png" alt="課題⑤-2：動画付きLPサイト">
+          </a>
+          <p>
+            著作権の都合上、ベーシック認証となっております。<br>
+            下記のID/PWをご入力ください。<br>
+            ID：airbnbmv <br>
+            PW：airbnbmv
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="sample">
+          <p>frog school 模写</p>
+          <a href="https://simple-lp-mv-fm.herokuapp.com" target="_blank">
+            <img src="src/frogschool.png" alt="課題⑤-3：動画・フォーム付きLPサイト">
+          </a>
+          <p>
+            著作権の都合上、ベーシック認証となっております。<br>
+            下記のID/PWをご入力ください。<br>
+            ID：frgmvfm <br>
+            PW：frgmvfm
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- お問い合わせフォーム -->
+    <div class="contact">
+      <a name="contact"></a>
+      <h2>Contact</h2>
+      <p>お問い合わせフォーム</p>
+      <div class="form-group row justify-content-center">
+        <form class="form_horizontal" action="#" method="post">
+          <div class="col-sm-12 form">
+            <input type="text" name="Name" value="" placeholder="Your Name" class="form-control">
+          </div>
+          <div class="col-sm-12 form">
+            <input type="email" name="Mail Address" value="" placeholder="Yout Email" class="form-control">
+          </div>
+          <div class="col-sm-12 form">
+            <input type="text" name="Subject" value="" placeholder="Subject" class="form-control">
+          </div>
+          <div class="col-sm-12 form">
+            <textarea name="Description" rows="8" cols="80" class="form-control" placeholder="Description"></textarea>
+          </div>
+          <div class="col-sm-12 form">
+            <button type="button" class="btn btn-info">submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- フッター -->
+    <footer class="footer">
+      <p>©2020 Keisuke Abe All Right Reserved</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
