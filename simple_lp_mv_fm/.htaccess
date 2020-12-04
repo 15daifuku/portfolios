@@ -1,5 +1,5 @@
-DirectoryIndex index.html index.php
-AuthUserFile /app/.htpasswd
+DirectoryIndex simple_lp_mv_fm.php
+AuthUserFile /app/simple_lp_mv_fm/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
