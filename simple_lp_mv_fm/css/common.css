@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 
-html, body {
+html, b ody {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -520,13 +520,9 @@ html, body {
   div.teachers {
     width: 380px;
     margin: 0 auto;
+    text-align: center;
   }
   
-  div.teachers .col-4 {
-    width: 360px;
-    margin: 0 auto;
-  }
-
   /* 画像を丸に切り抜く */
   div.teacher img {
     border-radius: 50%;
@@ -543,6 +539,11 @@ html, body {
     text-align: left;
   }
   
+  div.teachers_desc {
+    display: flex;
+    flex-direction:column;	
+  }
+
   /* 受講までのステップ */
   div.steps {
     width: 360px;
@@ -2228,6 +2229,7 @@ html, body {
   
   div.teachers {
     margin: 5% 80px;
+    text-align: center;
   }
   
   /* 画像を丸に切り抜く */
@@ -2244,7 +2246,12 @@ html, body {
   div.teacher p {
     line-height: 1.8;
   }
-  
+
+  div.teachers_desc {
+    display: flex;
+    flex-direction:row;	
+  }
+
   /* 受講までのステップ */
   div.steps {
     margin: 0 80px;
