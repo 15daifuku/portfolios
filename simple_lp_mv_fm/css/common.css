@@ -520,7 +520,6 @@ html, b ody {
   div.teachers {
     width: 380px;
     margin: 0 auto;
-    text-align: center;
   }
   
   /* 画像を丸に切り抜く */
@@ -539,11 +538,6 @@ html, b ody {
     text-align: left;
   }
   
-  div.teachers_desc {
-    display: flex;
-    flex-direction:column;	
-  }
-
   /* 受講までのステップ */
   div.steps {
     width: 360px;
@@ -2229,7 +2223,6 @@ html, b ody {
   
   div.teachers {
     margin: 5% 80px;
-    text-align: center;
   }
   
   /* 画像を丸に切り抜く */
@@ -2246,12 +2239,7 @@ html, b ody {
   div.teacher p {
     line-height: 1.8;
   }
-
-  div.teachers_desc {
-    display: flex;
-    flex-direction:row;	
-  }
-
+  
   /* 受講までのステップ */
   div.steps {
     margin: 0 80px;
