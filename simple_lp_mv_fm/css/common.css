@@ -522,6 +522,11 @@ html, body {
     margin: 0 auto;
   }
   
+  div.teachers .col-4 {
+    width: 360px;
+    margin: 0 auto;
+  }
+
   /* 画像を丸に切り抜く */
   div.teacher img {
     border-radius: 50%;
