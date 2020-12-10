@@ -52,7 +52,7 @@ p {
   display: none;
 }
 
-div.hide_pc {
+nav.hide_pc {
   display: none;
 }
 
@@ -75,7 +75,7 @@ div.hide_pc {
 
 /* nav_inputにチェックが入ったらnav_contentsを表示する */
 #nav_input:checked ~ #nav_contents {
-  opacity: .8;
+  /* opacity: .8; */
 }
 
 .sp_list {
