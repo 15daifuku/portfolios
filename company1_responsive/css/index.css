@@ -52,7 +52,7 @@ p {
   display: none;
 }
 
-#nav_contents nav {
+div.hide_pc {
   display: none;
 }
 
