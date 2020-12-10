@@ -74,9 +74,9 @@ nav.hide_pc {
 }
 
 /* nav_inputにチェックが入ったらnav_contentsを表示する */
-#nav_input:checked ~ #nav_contents {
-  /* opacity: .8; */
-}
+/* #nav_input:checked ~ #nav_contents {
+  opacity: .8;
+} */
 
 .sp_list {
   border-bottom: 1px solid white;
