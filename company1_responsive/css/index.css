@@ -40,6 +40,10 @@ p {
   right: 30px;
 }
 
+#nav_open span {
+  display: none;
+}
+
 #nav_open span:before {
   bottom: -12px;
 }
@@ -48,7 +52,7 @@ p {
   bottom: -24px;
 }
 
-#nav_contents ul {
+#nav_contents {
   display: none;
 }
 
@@ -66,6 +70,7 @@ p {
   background: black;
   transition: .3s;
   opacity: 0;
+  display: none;
 }
 
 /* nav_inputにチェックが入ったらnav_contentsを表示する */
